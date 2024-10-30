@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Excepciones">
+      <UniqueIdentifier>{afbeef2c-74d1-46d6-bae4-32f5c0ada73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Excepciones">
+      <UniqueIdentifier>{4be22740-735a-4a36-b7c4-827f5a2579ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Herencia">
+      <UniqueIdentifier>{102512bb-7473-4d9f-813f-a1aa477f08bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Herencia">
+      <UniqueIdentifier>{1376a729-bb90-4d18-b8a4-8c0f9ef80b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Clases pequeñas">
+      <UniqueIdentifier>{b3ebc150-b056-406b-9e33-ffc07dea67f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Clases pequeñas">
+      <UniqueIdentifier>{6cb3ceb7-0041-4f49-bf85-8389d9d387f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interfaz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContenedorTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gimnasio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfazTriatlonista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionGrupo.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionMatricula.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionInstructor.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionPrograma.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionContVacio.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionCurso.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionRango.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcepcionValor.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Rango.h">
+      <Filter>Header Files\Excepciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Deportista.h">
+      <Filter>Header Files\Herencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Triatlonista.h">
+      <Filter>Header Files\Herencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Ciclista.h">
+      <Filter>Header Files\Herencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Nadador.h">
+      <Filter>Header Files\Herencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Corredor.h">
+      <Filter>Header Files\Herencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Hora.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Fecha.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Instructor.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejoFecha.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilidad.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Grupo.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Curso.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Expediente.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Pago.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Reserva.h">
+      <Filter>Header Files\Clases pequeñas</Filter>
+    </ClInclude>
+    <ClInclude Include="Controladora.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Interfaz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gimnasio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfazTriatlonista.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcepcionGrupo.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcepcionCurso.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcepcionMatricula.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcepcionInstructor.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcepcionRango.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcepcionValor.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Ciclista.cpp">
+      <Filter>Source Files\Herencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Corredor.cpp">
+      <Filter>Source Files\Herencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Deportista.cpp">
+      <Filter>Source Files\Herencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Nadador.cpp">
+      <Filter>Source Files\Herencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Triatlonista.cpp">
+      <Filter>Source Files\Herencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Curso.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Expediente.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Fecha.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Grupo.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Hora.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Instructor.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejoFecha.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Rango.cpp">
+      <Filter>Source Files\Excepciones</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilidad.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Reserva.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+    <ClCompile Include="Pago.cpp">
+      <Filter>Source Files\Clases pequeñas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
